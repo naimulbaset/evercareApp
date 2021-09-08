@@ -1,0 +1,57 @@
+name: evercare
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sslcommerz_flutter: ^0.0.3
+  pdf: ^2.1.0
+  path_provider: ^1.6.28
+  open_file: ^3.0.3
+  intl: ^0.16.1
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - images/p1.jpg
+    - images/p3.jpg
+    - images/e1.png
+    - images/e2.png
+    - images/b1.png
+
+
+  fonts:
+    - family: Playfair Display
+      fonts:
+        - asset: fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf
+        - asset: fonts/PlayfairDisplay-VariableFont_wght.ttf
+
+
