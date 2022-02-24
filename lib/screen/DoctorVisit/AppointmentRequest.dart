@@ -331,7 +331,7 @@ class _AppointmentRequestScreenState extends State<AppointmentRequestScreen> {
                               cells: <DataCell>[
                                 DataCell(Text('1')),
                                 DataCell(Text('08/31/2021')),
-                                DataCell(Text('Evercare Hospital Dhaka')),
+                                DataCell(Text('Xyz Hospital')),
                                 DataCell(
                                     Text('Dr.K F M Ayaz , Internal Medicine')),
                                 DataCell(Text('Approve')),
@@ -343,7 +343,7 @@ class _AppointmentRequestScreenState extends State<AppointmentRequestScreen> {
                               cells: <DataCell>[
                                 DataCell(Text('2')),
                                 DataCell(Text('09/01/2021')),
-                                DataCell(Text('Evercare Hospital Dhaka')),
+                                DataCell(Text('Xyz Hospital')),
                                 DataCell(
                                     Text('Dr.K F M Ayaz , Internal Medicine')),
                                 DataCell(Text('Pending')),

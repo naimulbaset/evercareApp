@@ -129,7 +129,7 @@ class _WriteUsScreenState extends State<WriteUsScreen> {
                                         decoration: InputDecoration(
                                           icon: Icon(
                                               Icons.drive_file_rename_outline),
-                                          hintText: 'Mobile No:01759525852',
+                                          hintText: 'Mobile No:017595XXX',
                                           contentPadding: EdgeInsets.symmetric(
                                               vertical: 20.0, horizontal: 20.0),
                                         ),

@@ -308,7 +308,7 @@ class _AdvancePaymentScreenState extends State<AdvancePaymentScreen> {
                             DataRow(
                               cells: <DataCell>[
                                 DataCell(Text('1')),
-                                DataCell(Text('Evercare Hospital Dhaka')),
+                                DataCell(Text('Xyz Hospital')),
                                 DataCell(Text('456')),
                                 DataCell(Text('08/31/2021')),
                                 DataCell(Text('70,000')),

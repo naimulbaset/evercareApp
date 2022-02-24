@@ -93,7 +93,7 @@ class _DoctorVisitDetailsState extends State<DoctorVisitDetails> {
                             width: 8,
                           ),
                           Text(
-                            '08/07/2021 3:04PM',
+                            'Dr.Rahman ,Internal Medicine',
                             style: TextStyle(fontSize: 15),
                           ),
                         ],

@@ -90,8 +90,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                               cells: <DataCell>[
                                 DataCell(Text('1')),
                                 DataCell(Text('08/07/2021 3:04PM')),
-                                DataCell(
-                                    Text('Dr.K F M Ayaz , Internal Medicine')),
+                                DataCell(Text('Dr.Rahman, Internal Medicine')),
                                 DataCell(Text('OutPatient')),
                                 DataCell(
                                   Container(
@@ -112,7 +111,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
 
                                         final invoice = Invoice(
                                           supplier: Supplier(
-                                            name: 'EverCare Hospital Dhaka',
+                                            name: 'Xyz Hospital',
                                             // address: 'Sarah Street 9, Beijing, China',
                                             // paymentInfo: 'https://paypal.me/sarahfieldzz',
                                           ),
@@ -158,8 +157,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                               cells: <DataCell>[
                                 DataCell(Text('2')),
                                 DataCell(Text('03/05/2021 3:20PM')),
-                                DataCell(
-                                    Text('Dr.Jasmin Manzoor , Dermatology')),
+                                DataCell(Text('Dr.Wilson , Dermatology')),
                                 DataCell(Text('OutPatient')),
                                 DataCell(
                                   Container(
@@ -196,8 +194,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                               cells: <DataCell>[
                                 DataCell(Text('3')),
                                 DataCell(Text('19/01/2021 10:18AM')),
-                                DataCell(
-                                    Text('Dr.Jasmin Manzoor , Dermatology')),
+                                DataCell(Text('Dr.Kathy Smith, Dermatology')),
                                 DataCell(Text('OutPatient')),
                                 DataCell(
                                   Container(
@@ -288,7 +285,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                                 DataCell(Wrap(
                                   children: [
                                     Text(
-                                      'Dr.K F M Ayaz , \n Internal Medicine',
+                                      'Dr.Rahman , \n Internal Medicine',
                                       style: TextStyle(),
                                     )
                                   ],
@@ -312,8 +309,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                                       '09/07/2021 3:34PM',
                                       style: TextStyle(color: Colors.black),
                                     ))),
-                                DataCell(
-                                    Text('Dr.Jasmin Manzoor , \n Dermatology')),
+                                DataCell(Text('Dr.Wilson , \n Dermatology')),
                               ],
                             ),
                             DataRow(
@@ -334,7 +330,7 @@ class _RecentDoctorVisitScreenState extends State<RecentDoctorVisitScreen> {
                                       style: TextStyle(color: Colors.black),
                                     ))),
                                 DataCell(
-                                    Text('Dr.Jasmin Manzoor , \n Dermatology')),
+                                    Text('Dr.Kathy Smith , \n Dermatology')),
                               ],
                             ),
                           ])),
